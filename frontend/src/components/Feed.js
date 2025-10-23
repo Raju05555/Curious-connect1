@@ -7,8 +7,7 @@ import axios from "axios";
 function Feed() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    axios
-      .get("/api/questions")
+    axios.get("/api/questions")
       .then((res) => {
         console.log(res.data.reverse());
         setPosts(res.data);

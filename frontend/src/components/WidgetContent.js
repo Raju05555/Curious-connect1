@@ -10,8 +10,21 @@ function WidgetContent() {
           alt=""
         />
         <div className="widget__contentTitle">
-          <h5>Mobile App Programmer</h5>
+          <h5>Trending Questions</h5>
+          <br>
+          </br>
           <p>The best Mobile App Development Company</p>
+          <br>
+          </br>
+          <p>What happend in IT sector in last 24 hours?</p>
+          <br>
+          </br>
+          <p>Who is founder of Tesla?</p>
+          <br>
+          </br>
+          <p>pushpa 2 first day collection </p> <br>
+          </br>
+          <p>bitcoin price</p>
         </div>
       </div>
     </div>

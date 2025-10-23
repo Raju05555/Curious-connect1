@@ -51,8 +51,7 @@ function Post({ post }) {
         questionId: post?._id,
         user: user,
       };
-      await axios
-        .post("/api/answers", body, config)
+      await axios.post("/api/answers", body, config)
         .then((res) => {
           console.log(res.data);
           alert("Answer added succesfully");

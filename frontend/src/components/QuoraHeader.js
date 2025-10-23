@@ -40,8 +40,7 @@ function QuoraHeader() {
         questionUrl: inputUrl,
         user: user,
       };
-      await axios
-        .post("/api/questions", body, config)
+      await axios.post("/api/questions", body, config)
         .then((res) => {
           console.log(res.data);
           alert(res.data.message);
